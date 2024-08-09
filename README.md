@@ -23,3 +23,33 @@ barcharts.update_xaxes(tickvals=graph_df_pivot.index, ticktext=[str(Year) for Ye
 
 # Show the final plot
 barcharts.show()
+
+
+
+
+
+
+
+
+
+
+# Update layout to place legends below each subplot
+barcharts.update_layout(
+    width=1700, 
+    height=900, 
+    barmode='stack',
+    showlegend=True,
+    legend=dict(
+        orientation="h",  # Horizontal legend
+        yanchor="top",     # Align legend to top of y axis
+        y=-0.2,            # Position below the plot (-0.1 for just below, decrease further as needed)
+        xanchor="center",  # Center the legend
+        x=0.5              # Center it horizontally
+    )
+)
+
+# Update X axis with tick values
+barcharts.update_xaxes(tickvals=graph_df_pivot.index, ticktext=[str(Year) for Year in graph_df_pivot.index])
+
+# Show the final plot
+barcharts.show()
