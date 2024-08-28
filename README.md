@@ -53,3 +53,80 @@ barcharts.update_xaxes(tickvals=graph_df_pivot.index, ticktext=[str(Year) for Ye
 
 # Show the final plot
 barcharts.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s a condensed version of the PowerPoint presentation, limited to 3-4 slides, that packs in as much information as possible:
+
+---
+
+### **Slide 1: Introduction & Problem Statement**
+- **Report Generation Challenges**:
+  - **Manual Process**: Time-consuming and repetitive.
+  - **Inconsistent Formats**: Lack of standardization across reports.
+  - **Limited Automation**: Difficulty in incorporating dynamic data visualizations.
+
+- **Goal**: Streamline and automate report creation to save time and ensure consistency.
+
+---
+
+### **Slide 2: Tools Overview: Streamlit, Datapane, ReportLab**
+- **Streamlit**:
+  - **Purpose**: Build interactive web applications for data exploration.
+  - **Strengths**: Easy to use, real-time updates, interactive visualizations.
+  - **Weaknesses**: Limited export options, not ideal for static reports.
+
+- **Datapane**:
+  - **Purpose**: Create and share data-driven reports, both interactive and static.
+  - **Strengths**: Good balance between interactivity and static content, easy web sharing and PDF export.
+  - **Weaknesses**: Limited deep customization, moderate learning curve.
+
+- **ReportLab**:
+  - **Purpose**: Generate print-ready PDFs with detailed customization.
+  - **Strengths**: High control over layout, ideal for static, professional documents.
+  - **Weaknesses**: No interactivity, steeper learning curve, focused on static output.
+
+---
+
+### **Slide 3: Efficiency Gains & Key Differences**
+- **Efficiency Gains**:
+  - **Streamlit**: Quick setup for dynamic, interactive dashboards – reduced time for exploratory analysis.
+  - **Datapane**: Fast generation and sharing of reports – streamlined report distribution.
+  - **ReportLab**: Automated high-quality PDF creation – cut down on manual document formatting.
+
+- **Key Differences**:
+  - **Streamlit**: Best for interactive exploration and dashboards.
+  - **Datapane**: Best for report sharing with a mix of interactivity and static content.
+  - **ReportLab**: Best for fully customized, static, print-ready documents.
+
+---
+
+### **Slide 4: Conclusion & Summary**
+- **Overall Impact**:
+  - Significant time reduction in report creation by leveraging the right tool for the right task.
+  - **Tool Selection Based on Needs**:
+    - **Streamlit**: Ideal for real-time data exploration.
+    - **Datapane**: Great for sharing comprehensive reports.
+    - **ReportLab**: Perfect for static, customized documents.
+
+- **Final Thoughts**:
+  - By utilizing Streamlit, Datapane, and ReportLab, we optimized the workflow and improved the consistency and quality of our reports.
+
+---
+
+This condensed presentation provides a clear overview of how the three tools were used to streamline report generation, highlighting their unique strengths and differences.
